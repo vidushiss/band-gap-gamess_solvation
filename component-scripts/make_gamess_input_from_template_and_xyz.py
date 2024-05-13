@@ -200,6 +200,7 @@ def gamess_input_from_template(mol, gamess_xyz_data, name, template, indx=-1, sp
             fout.write(" {}\n".format(line.strip()))
 
         #fout.write("\n")
+        fout.write(" $PCM  SOLVNT=THF $END\n")
         fout.write(" $DATA\n")
         fout.write("{} {}\n".format(name, re.sub(r"[^\w]", "", mf)))
         fout.write(" C1\n")
