@@ -28,8 +28,8 @@
                 "source": {
                     "git": {
                         "location": {
-                            "tag": "1.1.5",
-                            "url": "https://github.com/st4sd/band-gap-gamess.git"
+                            "tag": "solvation",
+                            "url": "https://github.com/vidushiss/band-gap-gamess_solvation.git"
                         }
                     }
                 }
