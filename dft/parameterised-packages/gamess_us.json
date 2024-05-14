@@ -28,7 +28,7 @@
                 "source": {
                     "git": {
                         "location": {
-                            "tag": "solvation",
+                            "branch": "main",
                             "url": "https://github.com/vidushiss/band-gap-gamess_solvation.git"
                         }
                     }
